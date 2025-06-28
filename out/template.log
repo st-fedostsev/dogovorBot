@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.10)  27 JUN 2025 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.10)  28 JUN 2025 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -722,59 +722,2276 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen277
 \titlewidthfirst=\dimen278
 )
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+16.
 
+(/usr/local/texlive/2025/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count312
 \l__pdf_internal_box=\box72
-))
-Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+No file template.aux.
+\openout1 = `template.aux'.
 
-/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty:101: Fatal P
-ackage fontspec Error: The fontspec package requires either XeTeX or
-(fontspec)                      LuaTeX.
-(fontspec)                      
-(fontspec)                      You must change your typesetting engine to,
-(fontspec)                      e.g., "xelatex" or "lualatex" instead of
-(fontspec)                      "latex" or "pdflatex".
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \th on input line 33.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=759.6886pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Type <return> to continue.
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count313
+\scratchdimen=\dimen279
+\scratchbox=\box73
+\nofMPsegments=\count314
+\nofMParguments=\count315
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count316
+\MPscratchDim=\dimen280
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
+\everyMPtoPDFconversion=\toks44
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+./template.tex:36: Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...tbf{Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }
+                                                  } \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:36: Extra }, or forgotten $.
+<argument> Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}
+                                              } 
+l.36 ...tbf{Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }
+                                                  } \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:36: Extra }, or forgotten $.
+<argument> Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}}
+                                                
+l.36 ...tbf{Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }
+                                                  } \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:36: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.36 ...tbf{Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }
+                                                  } \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:36: Extra }, or forgotten $.
+l.36 ...bf{Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }}
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./template.tex:36: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
+l.36 ...Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }} \\
                                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-LaTeX does not know anything more about this error, sorry.
-
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
-
-This is a fatal error: LaTeX will abort.
-
-
-
-/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty:101: Emergen
-cy stop.
-<read *> 
-         
-l.101 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
+./template.tex:36: Missing $ inserted.
+<inserted text> 
+                $
+l.36 ...Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }} \\
                                                   
-*** (cannot \read from terminal in nonstop modes)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
- 
-Here is how much of TeX's memory you used:
- 15214 strings out of 473190
- 299050 string characters out of 5715800
- 681084 words of memory out of 5000000
- 38239 multiletter control sequences out of 15000+600000
- 559241 words of font info for 38 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 102i,0n,107p,415b,104s stack positions out of 10000i,1000n,20000p,200000b,200000s
-/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty:101:  ==> Fa
-tal error occurred, no output PDF file produced!
+./template.tex:36: Missing } inserted.
+<inserted text> 
+                }
+l.36 ...Р”РѕРіРѕРІРѕСЂ в„–{{number_dogovor}} }} \\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:38: Missing } inserted.
+<inserted text> 
+                }
+l.38 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:38: Missing } inserted.
+<inserted text> 
+                }
+l.38 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:38: Missing } inserted.
+<inserted text> 
+                }
+l.38 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:39: Missing $ inserted.
+<inserted text> 
+                $
+l.39 Р—Р°РєР»СЋС‡РµРЅ \hfill {{data_
+                                    dogovor}} Рі.\\[0.5cm]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:39: Extra }, or forgotten $.
+l.39 Р—Р°РєР»СЋС‡РµРЅ \hfill {{data_dogovor}
+                                            } Рі.\\[0.5cm]
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:39: Extra }, or forgotten $.
+l.39 Р—Р°РєР»СЋС‡РµРЅ \hfill {{data_dogovor}}
+                                              Рі.\\[0.5cm]
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 39.
+
+
+LaTeX Warning: Command \CYRG invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrzh invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRR invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRF invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRF invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRS invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRA invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrz invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrz invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyryu invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrshch invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrshch invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRI invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRN invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRN invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \CYRP invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 41.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyryu invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrshch invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrsftsn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \CYRZ invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrz invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \CYRS invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrz invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyryu invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrshch invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrishrt invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \CYRD invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrzh invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyryu invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrshch invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 42.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 42.
+
+./template.tex:43: Missing $ inserted.
+<inserted text> 
+                $
+l.43 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no г in font cmr12!
+Missing character: There is no Г in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no ж in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no Р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no Ф in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no ц in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no Ф in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no ц in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no С in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no п in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no А in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no ч in font cmr12!
+Missing character: There is no з in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no ч in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no з in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no ц in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no ю in font cmr12!
+Missing character: There is no щ in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no п in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no ь in font cmr12!
+Missing character: There is no щ in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no И in font cmr12!
+Missing character: There is no Н in font cmr12!
+Missing character: There is no Н in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no П in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no п in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no ь in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no ю in font cmr12!
+Missing character: There is no щ in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no ч in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no ь in font cmr12!
+Missing character: There is no п in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no п in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no З in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no з in font cmr12!
+Missing character: There is no ч in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no С in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no з in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no ю in font cmr12!
+Missing character: There is no ч in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no щ in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no й in font cmr12!
+Missing character: There is no Д in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no ж in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no у in font cmr12!
+Missing character: There is no ю in font cmr12!
+Missing character: There is no щ in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no м in font cmr12!
+./template.tex:45: Missing $ inserted.
+<inserted text> 
+                $
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:45: Extra }, or forgotten $.
+<argument>  {{student_name}
+                           } 
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:45: Extra }, or forgotten $.
+<argument>  {{student_name}}
+                             
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:45: Extra }, or forgotten $.
+\underline  ...{#1}\else $\@@underline {\hbox {#1}
+                                                  }\m@th $\relax \fi 
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:45: Extra }, or forgotten $.
+\underline  ...#1}\else $\@@underline {\hbox {#1}}
+                                                  \m@th $\relax \fi 
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:45: Missing } inserted.
+<inserted text> 
+                }
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:45: Missing } inserted.
+<inserted text> 
+                }
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:45: Missing } inserted.
+<inserted text> 
+                }
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:45: Missing $ inserted.
+<inserted text> 
+                $
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:45: Missing } inserted.
+<inserted text> 
+                }
+l.45 ...РјРµРЅСѓРµРј(С‹Р№/Р°СЏ) <<РЈС‡РµРЅРёРє>>.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (46.56328pt too wide) in paragraph at lines 45--45
+ \T2A/cmr/m/n/12 тре-тьих лиц, по обу-че-нию уче-ни-ка, ко-то-рым яв-ля-ет-ся $
+[]$ 
+ []
+
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
+Overfull \hbox (25.96622pt too wide) in paragraph at lines 55--55
+ |[]\T2A/cmr/m/n/12 Занятия про-хо-дят он-лайн в фор-ма-те со-зво-на с при-ме-н
+е-ни-ем сле-ду-ю-щих онлайн-инструментов:
+ []
+
+
+
+[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}]
+
+[3]
+./template.tex:126: Missing $ inserted.
+<inserted text> 
+                $
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:126: Extra }, or forgotten $.
+<argument> \@empty {{passport_series}
+                                     }
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:126: Extra }, or forgotten $.
+<argument> \@empty {{passport_series}}
+                                      
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:126: Improper \spacefactor.
+<argument> ...def \UL@spfactor {\the \spacefactor 
+                                                  }
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+./template.tex:126: Extra }, or forgotten $.
+\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
+                                                  \egroup \unskip \unskip \u...
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:126: Extra }, or forgotten $.
+\UL@word ...expandafter \UL@end #1\egroup \egroup 
+                                                  \unskip \unskip \unskip \s...
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:126: You can't use `\spacefactor' in math mode.
+\UL@word ... \unskip \unskip \unskip \spacefactor 
+                                                  \UL@spfactor \let \UL@word...
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:126: Extra }, or forgotten $.
+\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
+                                                  \@empty 
+l.126 ...СЃРµСЂРёСЏ: \uline{ {{passport_series}} }
+                                                   \qquad РЅРѕРјРµСЂ: \uline...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 126.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 126.
+
+
+LaTeX Warning: Command \cyrm invalid in math mode on input line 126.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 126.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 126.
+
+./template.tex:127: Misplaced alignment tab character &.
+l.127     &
+            \hspace{0.7cm} РІС‹РґР°РЅ: \uline{ {{passport_issue}} } \\[0.3cm]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 127.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 127.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 127.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 127.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 127.
+
+./template.tex:128: Misplaced alignment tab character &.
+l.128     &
+            \hspace{0.7cm} РґР°С‚Р° РІС‹РґР°С‡Рё: \uline{ {{passport_issue_d...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 128.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 128.
+
+./template.tex:129: Misplaced alignment tab character &.
+l.129     &
+            \hspace{0.7cm} РєРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ: \uline{ {{pass...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrz invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 129.
+
+
+LaTeX Warning: Command \cyrya invalid in math mode on input line 129.
+
+./template.tex:130: Misplaced alignment tab character &.
+l.130     &
+            \hspace{0.7cm} Р°РґСЂРµСЃ СЂРµРіРёСЃС‚СЂР°С†РёРё: \uline{ {{regi...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrg invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 130.
+
+./template.tex:131: Misplaced alignment tab character &.
+l.131 ...ram:} \underline{\text{@st\_fedostsev}} &
+                                                   \textbf{Telegram:} \uline...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:132: Misplaced alignment tab character &.
+l.132 ...nderline{\text{st.fedostsev@gmail.com}} &
+                                                   \textbf{Email:} \uline{ {...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:133: Misplaced alignment tab character &.
+l.133     \rule{6.4cm}{0.4pt} &
+                                \rule{7.8cm}{0.4pt} \\[0.5cm]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Warning: Command \CYRF invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrc invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \CYRS invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \CYRA invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrl invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \cyrch invalid in math mode on input line 134.
+
+./template.tex:134: Misplaced alignment tab character &.
+l.134 ...‚РµРїР°РЅ РђР»РµРєСЃР°РЅРґСЂРѕРІРёС‡} / &
+                                                   / \uline{ {{customer_full...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:135: Misplaced \crcr.
+\tbl_crcr:n ...l_count_missing_cells:n {#1}}\crcr 
+                                                  
+l.135 \end{tabular}
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./template.tex:135: Extra }, or forgotten $.
+\endarray ->\tbl_crcr:n {endarray}\egroup 
+                                          \UseTaggingSocket {tbl/finalize}\t...
+l.135 \end{tabular}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:135: Extra }, or forgotten $.
+\endarray ...tbl_restore_outer_cell_data: \egroup 
+                                                  \@arrayright \gdef \@pream...
+l.135 \end{tabular}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Missing character: There is no н in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no м in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no ы in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no ч in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no п in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no з in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no я in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no г in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no ц in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no Ф in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no ц in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no С in font cmr12!
+Missing character: There is no т in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no п in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no А in font cmr12!
+Missing character: There is no л in font cmr12!
+Missing character: There is no е in font cmr12!
+Missing character: There is no к in font cmr12!
+Missing character: There is no с in font cmr12!
+Missing character: There is no а in font cmr12!
+Missing character: There is no н in font cmr12!
+Missing character: There is no д in font cmr12!
+Missing character: There is no р in font cmr12!
+Missing character: There is no о in font cmr12!
+Missing character: There is no в in font cmr12!
+Missing character: There is no и in font cmr12!
+Missing character: There is no ч in font cmr12!
+./template.tex:135: Missing } inserted.
+<inserted text> 
+                }
+l.135 \end{tabular}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:135: Missing } inserted.
+<inserted text> 
+                }
+l.135 \end{tabular}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./template.tex:135: Missing } inserted.
+<inserted text> 
+                }
+l.135 \end{tabular}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn'

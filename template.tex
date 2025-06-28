@@ -1,42 +1,39 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[russian]{babel}
+% Только для XeLaTeX/LuaLaTeX, для pdfLaTeX — см. выше
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
 \usepackage{geometry}
 \usepackage{enumitem}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
-\usepackage{tikz}
 \usepackage[table]{xcolor}
+\usepackage{tikz}
 \usepackage{titlesec}
-\usepackage[T2A]{fontenc}
-\usepackage{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\geometry{top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm}
 
 \titlespacing*{\subsubsection}{1.5cm}{*}{*}
 \titlespacing*{\subsection}{0.5cm}{*}{*}
 
-
 \titleformat{\subsection}
-  {\normalfont\normalsize\color{black}} % Обычный шрифт с цветом
-  {\thesubsection}{0.5em}{}    % Формат нумерации
+  {\normalfont\normalsize\color{black}}
+  {\thesubsection}{0.5em}{}
 
 \titleformat{\subsubsection}
-  {\normalfont\normalsize\color{black}} % Обычный шрифт с цветом
-  {\thesubsection}{0.5em}{}    % Формат нумерации
+  {\normalfont\normalsize\color{black}}
+  {\thesubsubsection}{0.5em}{}
 
-\geometry{top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm}
-
-\usepackage{setspace}
-\usepackage{xcolor}
 \definecolor{amethyst}{rgb}{0.6, 0.4, 0.8}
 
 \begin{document}
-
 \begin{center}
     \Large{\textbf{Договор №{{number_dogovor}} }} \\
     \large{\textbf{возмездного оказания репетиторских услуг}}
 \end{center}
-Заключен \hfill {{data_dogovor}} г.\\[0.5cm]
+Заключен \hfill {{data_dogovor}} г.\\[1cm]
 \noindent
 Гражданин Российской Федерации, Федосцев Степан Александрович, зарегистрированный в качестве самозанятого лица и являющийся налогоплательщиком с 03.09.2023 (ИНН: 661218987720), далее именуемый <<Преподаватель>>, с одной стороны,
 и \underline{ {{customer_full_name}} } (документ, удостоверяющий личность: \underline{паспорт}), \textbf{}далее именуем(ый/ая) <<Заказчик>>, с другой стороны, далее совместно именуемые <<Стороны>>, заключили настояйщий договор, далее именуемый <<Договор>>, о нижеследующем.

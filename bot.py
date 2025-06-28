@@ -53,6 +53,7 @@ fields_answers = [
     'Адрес регистрации'
 ]
 
+
 questions = [
     "Введите ФИО заказчика (Фамилия Имя Отчество):",
     "Введите ФИО ученика (ФИО полностью):",
@@ -81,8 +82,14 @@ def validate_passport_series_and_number(value):
     return bool(re.match(r"^\d{4}\s\d{6}$", value.strip()))
 
 def validate_passport_issue_date(value):
+    value = value.strip()
+    # Проверить строгий формат: 2 цифры . 2 цифры . 4 цифры
+    if not re.fullmatch(r'\d{2}.\d{2}.\d{4}', value):
+        return False
     try:
-        datetime.strptime(value.strip(), "%d.%m.%Y")
+        date = datetime.strptime(value, "%d.%m.%Y")
+        if date.year > datetime.now().year:
+            return False
         return True
     except ValueError:
         return False
@@ -121,18 +128,23 @@ dogovor_count = 1      # Глобальный счетчик договоров
 
 def compile_tex_with_latexmk(input_tex, output_pdf):
     """
-    Компилирует input_tex в PDF с именем output_pdf (полный путь, с .pdf), используя latexmk и pdflatex.
+    Компилирует input_tex в PDF с именем output_pdf (полный путь, с .pdf), используя latexmk и xelatex.
     Возвращает путь к итоговому PDF либо None при ошибке.
     """
+    import os
+    import subprocess
+    import shutil
+
     input_dir = os.path.dirname(os.path.abspath(input_tex))
     input_base = os.path.basename(input_tex)
 
     out_basename = os.path.splitext(os.path.basename(output_pdf))[0]
 
+    # latexmk -xelatex -jobname=<jobname> <file>
     cmd = [
-        "latexmk",
-        "-pdf",
-        f'-pdflatex=pdflatex -interaction=nonstopmode -jobname={out_basename} %O %S',
+        'xelatex',
+        '-interaction=nonstopmode',
+        f'-jobname={out_basename}',
         input_base
     ]
     try:
@@ -157,9 +169,10 @@ def compile_tex_with_latexmk(input_tex, output_pdf):
         return output_pdf
     else:
         print("Ошибка компиляции latexmk!")
-        print("STDOUT:\n", proc.stdout.decode(errors='ignore'))
-        print("STDERR:\n", proc.stderr.decode(errors='ignore'))
+        print("STDOUT:n", proc.stdout.decode(errors='ignore'))
+        print("STDERR:n", proc.stderr.decode(errors='ignore'))
         return None
+
 
 def dogovor_create(answers):
     global dogovor_count
@@ -227,7 +240,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         resize_keyboard=True
     )
     await update.message.reply_text(
-        f"Ознакомьтесь, пожалуйста, с нашей [Политикой обработки персональных данных]({privacy_policy_url}).n"
+        f"Ознакомьтесь, пожалуйста, с нашей [Политикой обработки персональных данных]({privacy_policy_url}).\n"
         "Для продолжения необходимо Ваше согласие на обработку персональных данных в соответствии с Федеральным законом № 152-ФЗ \"О персональных данных\".\n"
         "Нажмите 'Даю согласие', чтобы продолжить.",
         parse_mode='Markdown',
@@ -331,3 +344,5 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     print("Бот запущен!")
     app.run_polling()
+
+
