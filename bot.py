@@ -282,7 +282,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 return
 
             await update.message.reply_text(
-                "Ваш договор сформирован!\nОн придет в течение двух суток с этого момента на указанную вами почту. Его нужно будет подписать с помощью простой электронной подписи, инструкция также будет приложена.",
+                "Ваш договор сформирован!\nОн придет в течение двух суток с этого момента на указанную вами почту. Его нужно будет подписать с помощью простой электронной подписи через сервис Контур Сайн, инструкция также будет приложена.",
                 reply_markup=ReplyKeyboardRemove()
             )
             del user_data[user_id]
@@ -303,7 +303,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     field = fields[step]
     validator = validators[step]
     if not validator(text):
-        await update.message.reply_text(f"Некорректный ответ. Попробуйте еще раз!n{questions[step]}")
+        await update.message.reply_text(f"Некорректный ответ. Попробуйте еще раз!\n{questions[step]}")
         return
 
     user_data[user_id]['answers'][field] = text
@@ -318,8 +318,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [f"{fields_answers[i]}: {user_data[user_id]['answers'].get(fields[i],'')}" for i in range(len(fields_answers))]
         )
         await update.message.reply_text(
-            f"Спасибо! Ваши ответы:\n{summary}\n\nЕсли данные полностью корректны, то нажмите кнопку \"Подтвердить\", иначе \"Отменить\" и заполните данные ещё раз.",
-            reply_markup=CONFIRM_KEYBOARD
+            f"Спасибо! Ваши ответы:\n{summary_safe}"
+            "\n*Эти данные будут в настоящем договоре, в котором не должно быть ошибок!*"
+            "\n\nЕсли данные полностью корректны, то нажмите кнопку \"Подтвердить\", иначе \"Отменить\" и заполните данные ещё раз.",
+            reply_markup=CONFIRM_KEYBOARD,
+            parse_mode="MarkdownV2"
         )
 
 # --- main ---
